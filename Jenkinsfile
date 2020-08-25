@@ -20,7 +20,7 @@ sh '/usr/local/src/apache-maven/bin/mvn sonar:sonar'
 	       }
 stage('Tomcat'){
 steps{
-sh 'scp /root/workspace/maven1/target/studentapp-2.1.3-FEAT01-SNAPSHOT.war root@18.237.14.10:/var/lib/tomcat/webapps'
+sh 'scp /root/workspace/maven1/target/studentapp-2.1.3-FEAT01-SNAPSHOT.war root@34.214.179.8:/var/lib/tomcat/webapps'
      }
 	       }
       }
